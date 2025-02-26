@@ -1,3 +1,7 @@
+li {
+  line-height: 175%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -5,6 +9,8 @@ body {
   background-image: url(assets/maracuja1.jpg);
   background-size: cover;
   height: 100vh;
+  line-height: 150%;
+  color: black;
 }
 
 body::before {
@@ -17,8 +23,14 @@ body::before {
   z-index: -1;
 }
 
+h1 {
+  padding: 10px;
+  text-align: center; 
+  letter-spacing: 1px;
+}
+
 #page1 {
-  background-color: #75e0a5;
+  background-color: #d5d811;
   width: 800px;
   box-sizing: border-box;
   border-radius: 24px;
@@ -27,7 +39,11 @@ body::before {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  font-family: "Montserrat", serif;
+}
+
+h2 {
+  font-size: 18px;
 }
 
 img {
